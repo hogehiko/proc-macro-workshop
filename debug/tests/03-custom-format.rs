@@ -38,6 +38,5 @@ fn main() {
 
     let debug = format!("{:?}", f);
     let expected = r#"Field { name: "F", bitmask: 0b00011100 }"#;
-
     assert_eq!(debug, expected);
 }
